@@ -1,0 +1,37 @@
+
+#carousel {
+	width:255px;
+	height:290px;	
+	margin:0 auto;
+	overflow:hidden;
+}
+
+#slides {
+	overflow:hidden;
+	position:relative;
+	width:250px;
+	height:250px;
+	border:1px solid #ccc;
+}
+
+#slides ul {
+	position:relative;
+	left:0;
+	top:0;
+	list-style:none;
+	margin:0;
+	padding:0;	
+	width:750px;			
+}
+
+#slides li {
+	width:250px;
+	height:250px;	
+	float:left;
+}
+
+#slides li img {
+	padding:4px;
+}
+
+.clear {clear:both}
